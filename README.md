@@ -1,6 +1,6 @@
-# Ultravox-s2s
+# Elevenlabs-s2s
 
-This is an example Jambonz application that connects to the Elevenlabs Realtime API and illustrates how to build a Voice-AI application using Jambonz and Elevenlabs. This application utilizes a weather REST API to enable Ultravox to answer callers' questions about the weather for specified locations.
+This is an example Jambonz application that connects to the Elevenlabs Realtime API and illustrates how to build a Voice-AI application using Jambonz and Elevenlabs. This application utilizes a weather REST API to enable Elevenlabs to answer callers' questions about the weather for specified locations.
 
 ## Authentication
 To use this application, you must have an Elevenlabs Agent ID with access to the Realtime API. Specify the Agent ID as an environment variable when starting the application:
@@ -14,7 +14,7 @@ Replace `agent_id` with your actual Elevenlabs Agent ID.
 This application requires a Jambonz server running release `0.9.2-rc3` or above.
 
 ## Configuring the Assistant
-Elevenlabs requires the assistant to be configured before connecting to the agent. This application uses the `llm` verb with `llmOptions` to send the initial configuration to Elevenlabs. For details, refer to the Ultravox documentation: [Elevenlabs Agent Setup](https://elevenlabs.io/docs/conversational-ai/docs/agent-setup).
+Elevenlabs requires the assistant to be configured before connecting to the agent. This application uses the `llm` verb with `llmOptions` to send the initial configuration to Elevenlabs. For details, refer to the Elevenlabs documentation: [Elevenlabs Agent Setup](https://elevenlabs.io/docs/conversational-ai/docs/agent-setup).
 
 ## Client tools
 [Elevenlabs client tools](https://elevenlabs.io/docs/conversational-ai/customization/client-tools), setup a tool with promt to get weather
