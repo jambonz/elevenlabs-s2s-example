@@ -3,12 +3,15 @@
 This is an example Jambonz application that connects to the Elevenlabs Realtime API and illustrates how to build a Voice-AI application using Jambonz and Elevenlabs. This application utilizes a weather REST API to enable Elevenlabs to answer callers' questions about the weather for specified locations.
 
 ## Authentication
-To use this application, you must have an Elevenlabs Agent ID with access to the Realtime API. Specify the Agent ID as an environment variable when starting the application:
+To use this application, you'll need an Elevenlabs Agent ID that has access to the Realtime API. Set the Agent ID as an environment variable before launching the application, like so:
 
 ```bash
 ELEVENLABS_AGENT_ID=<agent_id> npm start
 ```
-Replace `agent_id` with your actual Elevenlabs Agent ID.
+
+Replace `<agent_id>` with your actual Elevenlabs Agent ID.
+
+If you're using a private agent, use the ELEVENLABS_API_KEY environment variable when starting the application.
 
 ## Prerequisites
 This application requires a Jambonz server running release `0.9.2-rc3` or above.
