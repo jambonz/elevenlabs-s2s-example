@@ -11,7 +11,7 @@ ELEVENLABS_AGENT_ID=<agent_id> npm start
 
 Replace `<agent_id>` with your actual Elevenlabs Agent ID.
 
-If you're using a private agent, use the ELEVENLABS_API_KEY environment variable when starting the application.
+> Note: If you're using a private agent, you must also set the ELEVENLABS_API_KEY environment variable when starting the application.
 
 ## Prerequisites
 This application requires a Jambonz server running release `0.9.2-rc3` or above.
